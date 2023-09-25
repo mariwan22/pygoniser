@@ -82,9 +82,9 @@ def list_videos ():
 ##AUDIO
 def list_audio ():
     for aufio in os.listdir(Ch_audio):
-        if (audio.endswith(".mp3")) or (aufio.endswith(".wav")) or (aufio.endswith(".ogg")):
-            Dico_audio["Nom : "]=aufio
-            Dico_audio["Chemin : "]=(Ch_audio+"\\"+aufio)
+        if (audio.endswith(".mp3")) or (audio.endswith(".wav")) or (audio.endswith(".ogg")):
+            Dico_audio["Nom : "]=audio
+            Dico_audio["Chemin : "]=(Ch_audio+"\\"+audio)
     return Dico_audio
 ##IMAGE
 def list_image ():
