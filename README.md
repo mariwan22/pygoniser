@@ -13,8 +13,7 @@ Interface de listage médias de type audio, video, image et document.
 Utilisation très simple et pratique.
 Possibilité d'éxécuter le média depuis l'interface.
 
-# pygoniser
-Mediacenter
+_____________________________________________________________________
 
 Interface with Tkinter
 Interface made only for Windows
